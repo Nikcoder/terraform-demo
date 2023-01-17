@@ -1,5 +1,5 @@
 variable "vpc_cidr" {
-  default = "10.0.0.0/16"
+  default = "10.1.0.0/16"
 }
 
 variable "vpc_name" {
@@ -7,7 +7,7 @@ variable "vpc_name" {
 }
 
 variable "subnet_cidr" {
-  default = "10.0.1.0/24"
+  default = "10.1.12.0/24"
 }
 
 variable "az_zone1" {
@@ -19,7 +19,7 @@ variable "pub_subnet_name" {
 }
 
 variable "pri_subnet_cidr" {
-  default = "10.0.2.0/24"
+  default = "10.1.24.0/24"
 }
 
 variable "pri_subnet_name" {
@@ -30,7 +30,7 @@ variable "vpc_id" {
 }
 
 variable "pub_subnet_cidr" {
-  default = "10.0.3.0/24"
+  default = "10.1.48.0/24"
 }
 
 variable "pub_subnet_name_2" {
@@ -46,7 +46,7 @@ variable "pri_subnet_name2" {
 }
 
 variable "pri_subnet_cidr2" {
-  default = "10.0.4.0/24"
+  default = "10.1.56.0/24"
 }
 
 
